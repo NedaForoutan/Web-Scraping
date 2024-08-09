@@ -45,14 +45,14 @@ def scrape_page(session, url):
 
     # Extract some product information
     products = []
-    product_containers = soup.find_all('div', class_='glass-product-card__details')
+    product_containers = soup.find_all('div', class_='product-card__details')
 
     for product in product_containers:
-        title = product.find('p', class_='glass-product-card__title').get_text(strip=True)
-        category = product.find('p', class_='glass-product-card__category').get_text(strip=True)
+        title = product.find('p', class_='product-card__title').get_text(strip=True)
+        category = product.find('p', class_='product-card__category').get_text(strip=True)
 
         # Extracting the number of color variations
-        color_variations_p = product.find('p', class_='glass-product-card__label')
+        color_variations_p = product.find('p', class_='product-card__label')
         color_variations_span = color_variations_p.find('span', attrs={'data-auto-id': 'product-card-colvar-count'}) if color_variations_p else None
         color_variations = color_variations_span.get_text(strip=True) if color_variations_span else '1 colour'
 
