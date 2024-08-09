@@ -17,7 +17,8 @@ Before running the scripts, ensure you have the following Python packages instal
 You can install them using `pip`:
 
 ```bash
-pip install requests beautifulsoup4```
+pip install requests beautifulsoup4
+```
 
 #Usage
 1. Simple Web Scraper
@@ -28,4 +29,5 @@ Clone the repository to your local machine.
 Navigate to the repository directory.
 Run the script:
 ```bash
-python simple_web_scraper.py```
+python simple_web_scraper.py
+```
