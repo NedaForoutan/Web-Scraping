@@ -21,7 +21,8 @@ pip install requests beautifulsoup4
 ```
 
 # Usage
-1. Simple-Web_Scraping
+1. **Simple-Web_Scraping**
+   
 The `Simple-Web_Scraping.py` script is designed to scrape any webpage and extract the headings, paragraphs, and links present on the page.
 
 How to Run:
@@ -34,7 +35,8 @@ python simple_web_scraper.py
 4. Enter the URL of the webpage you want to scrape when prompted.
 5. The script will output the headings, paragraphs, and links from the webpage to the console.
 
-2. Advanced_Web_Scraping
+2. **Advanced_Web_Scraping**
+   
 The `Advanced_Web_Scraping.py` script is designed to scrape product information from the women's trainers section of a website whose name is anonymized to the Sportswear website. It handles pagination and extracts the product title, category, and the number of color variations for each product.
 
 How to Run:
