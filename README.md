@@ -18,3 +18,14 @@ You can install them using `pip`:
 
 ```bash
 pip install requests beautifulsoup4
+
+#Usage
+1. Simple Web Scraper
+The simple_web_scraper.py script is designed to scrape any webpage and extract the headings, paragraphs, and links present on the page.
+
+How to Run:
+Clone the repository to your local machine.
+Navigate to the repository directory.
+Run the script:
+```bash
+python simple_web_scraper.py
